@@ -6,15 +6,15 @@ class BotMessage(object):
 
     '''Some permanent Variables defined'''
 
-    common_text = "\n\n<b><u>If you are facing any problem😫, so report📝 at @HB4All1_Bot</u></b>"
+    common_text = "\n\n<b><u>If you are facing any problem😫, so report📝 at @HB4All_Support</u></b>"
 
-    to_login = "<b>If you are not logged in then, send login detail in this format email,password.</b>\n"
+    to_login = "<b>If you are not logged in then, send login detail in this format \nemail,password.</b>\n"
 
-    start_msg = f"<b>Hi, I am MegaUploaderBot🤖 Created by @HB4All and My Developer🧑‍💻 is @Happyboy59.</b>\n\nAnd I support:-\n1. <u>Direct Downloading Link</u>\n2.<u>Telegram File</u>\n3. <u>Youtube URL</u>\n\n\n{to_login}\n"
+    start_msg = f"<b>Hi, I am MegaUploaderBot🤖 Maintained By @HB4All .</b>\n\nAnd I support:-\n1. <u>Direct Downloading Link</u>\n2.<u>Telegram File</u>\n3. <u>Youtube URL</u>\n\n\n{to_login}\n"
 
     help_msg = f"{to_login}\n<b>After login😊 send Direct Downloading Link, Youtube URL or any Telegram File.\n\nTo remove your account from Database use /revoke.</b>{common_text}"
 
-    userBanned = f"<b>You are Banned🚫 Contact @HB4All1_Bot.</b>"
+    userBanned = f"<b>You are Banned🚫 Contact @HB4All_Support.</b>"
 
     trying_to_login = "<code>I am trying to login your account.\nSo Please Wait...</code>"
 
